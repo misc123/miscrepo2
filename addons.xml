@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<addons>
+
+<addon id="plugin.video.favourites" name="My Favourites" version="1.0.0" provider-name="J1 modded by misc123">
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en"></summary>
+        <description lang="en"></description>
+        <disclaimer lang="en"></disclaimer>
+        <platform>all</platform>
+        <news></news>
+        <genre>All</genre>
+        <video_guide></video_guide>
+        <video_preview></video_preview>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="repository.miscrepo2" name="Misc Repo 2" version="1.0.0" provider-name="misc123">
+    <extension point="xbmc.addon.repository" name="Misc Repo 2">
+        <dir minversion="20.1.0">
+            <info compressed="false">https://raw.githubusercontent.com/misc123/miscrepo2/master/addons.xml</info>    
+            <checksum>https://raw.githubusercontent.com/misc123/miscrepo2/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/misc123/miscrepo2/master</datadir>
+            <hashes>false</hashes>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Misc Repo 2</summary>
+        <description>For Kodi 20.1</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+</addons>
